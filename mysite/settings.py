@@ -74,13 +74,14 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/dev/ref/settings/#databases
+# 'ENGINE': 'django.db.backends.mysql',
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'djangotest',
-        'USER': 'root',
-        'PASSWORD': 'wangsh92',
+        'USER': 'wangsenhui',
+        'PASSWORD': 'wangsenhui',
         'HOST': '127.0.0.1',
         'PORT': '3306',
     }
@@ -109,7 +110,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/dev/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'en'
 
 TIME_ZONE = 'UTC'
 
